@@ -43,7 +43,7 @@ public class ToDoButton implements ActionListener {
 
     if (source == toDoButton) {
       if (todo.getTextContent().equals("")) {
-        JOptionPane.showMessageDialog(null, "Please enter a todo");
+        JOptionPane.showMessageDialog(null, "Please enter a task...");
         return;
       }
       addToDoToFile.addTextToFile(todosFile);
